@@ -29,7 +29,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 
 # FIRST take charge of pesky /usr/local/*
-sudo chown -R $(whoami) /usr/local
+# sudo chown -R $(whoami) /usr/local
 
 
 
