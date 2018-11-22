@@ -6,9 +6,9 @@
 # 1. install homebrew
 # 2. setup Ruby + RVM
 # 3. and Node + NVM
-# 3. brew cask install lots of apps you need
-# 4. pull down dotfiles and mackup configs
-# 5. run scripts to sync all the things
+# 4. brew cask install lots of apps you need
+# 5. pull down dotfiles and mackup configs
+# 6. run scripts to sync all the things
 
 ## (0) 
 ## get ready
@@ -28,10 +28,12 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 
-# FIRST take charge of pesky /usr/local/*
+# FIRST take charge of pesky /usr/local/*    # this appears no longer to be needed (old homebrew workaround)
 # sudo chown -R $(whoami) /usr/local
 
-
+## lay some groundwork
+mkdir ~/Projects
+mkdir ~/Clouds
 
 ## (1) 
 ## install Homebrew using the system Ruby in order to install the new Ruby :-/
@@ -101,3 +103,12 @@ brew cask install numi
 brew cask install sourcetree
 brew cask install box-sync
 brew cask install atext
+
+
+## install other stuff 
+
+# z beats cd most of the time.
+brew install z
+
+brew install mackup
+
