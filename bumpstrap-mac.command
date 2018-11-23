@@ -2,6 +2,9 @@
 
 # bumpstrap a new mac!
 
+# first brush up on this doc:
+# https://docs.google.com/document/d/1WtHgFCoUmosud967ybRi483z2fgHdRUTdl9NwYLVyKk/edit#heading=h.yh7nthgzg9xn 
+
 # 0. preamble 
 # 1. install homebrew
 # 2. setup Ruby + RVM
