@@ -44,7 +44,7 @@ mkdir ~/Clouds
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew doctor
-brew prune -v
+brew cleanup
 
 ## install gpg  # this avoids cert problems in RVM install -- you may be prompted for password
 brew install gpg
@@ -52,6 +52,9 @@ command curl -sSL https://rvm.io/mpapis.asc | gpg --import -
 
 ## (2)
 ## install RVM and Ruby
+
+curl -sSL https://rvm.io/mpapis.asc | gpg --import -
+curl -sSL https://rvm.io/pkuczynski.asc | gpg --import -
 
 \curl -L https://get.rvm.io | bash -s stable --autolibs=enabled --ruby
 source ~/.rvm/scripts/rvm
