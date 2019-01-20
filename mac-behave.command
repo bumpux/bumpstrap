@@ -3,11 +3,11 @@
 # tell your Mac what you like
 
 # expand this into a fuller first-run mac script.
-	# in ScriptsEtc, there is a setup ruby-node script; once this is done, run-up-all to get up to date
+# in ScriptsEtc, there is a setup ruby-node script; once this is done, run-up-all to get up to date
 
-	# have a section for cask installs:
-	# brew cask install karabiner-elements 
-	# ....  ( searc for casks here: https://caskroom.github.io/search)
+# have a section for cask installs:
+# brew cask install karabiner-elements 
+# ....  ( searc for casks here: https://caskroom.github.io/search)
 
 ### baised on matthias and paulirish .dotfiles.
 
@@ -15,11 +15,11 @@
 
 
 # Set highlight color to green  
-	# note the weird syntax for color: https://apple.stackexchange.com/questions/156120/applehighlightcolor-syntax/164905 
+# note the weird syntax for color: https://apple.stackexchange.com/questions/156120/applehighlightcolor-syntax/164905 
 defaults write NSGlobalDomain AppleHighlightColor -string "0.764700 0.976500 0.568600"
 
 # Enable full keyboard access for all controls
-	# (e.g. enable Tab in modal dialogs)
+# (e.g. enable Tab in modal dialogs)
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
 # Disable transparency in the menu bar and elsewhere on Yosemite
