@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # tell your Mac what you like
 
 # expand this into a fuller first-run mac script.
