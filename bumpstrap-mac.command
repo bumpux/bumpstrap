@@ -109,14 +109,13 @@ brew cask install numi
 brew cask install sourcetree
 brew cask install box-sync
 brew cask install atext
-
+brew cask install imageoptim
+brew cask install karabiner-elements
 
 ## install other stuff 
 
 # z beats cd most of the time.
 brew install z
 brew install awscli
-brew cask install karabiner-elements
-
 brew install mackup
 
