@@ -119,3 +119,5 @@ brew install z
 brew install awscli
 brew install mackup
 
+npm install -g npm-check
+
