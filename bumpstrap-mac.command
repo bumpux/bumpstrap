@@ -115,6 +115,8 @@ brew cask install atext
 
 # z beats cd most of the time.
 brew install z
+brew install awscli
+brew cask install karabiner-elements
 
 brew install mackup
 
