@@ -112,6 +112,7 @@ brew cask install atext
 brew cask install imageoptim
 brew cask install karabiner-elements
 brew cask install signal
+brew cask install goodsync
 
 ##  ## Quick Look Extensions  → https://github.com/sindresorhus/quick-look-plugins
 ##	## maybe add: webpquicklook 
