@@ -111,13 +111,33 @@ brew cask install box-sync
 brew cask install atext
 brew cask install imageoptim
 brew cask install karabiner-elements
+brew cask install signal
+
+##  ## Quick Look Extensions  → https://github.com/sindresorhus/quick-look-plugins
+##	## maybe add: webpquicklook 
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json suspicious-package qlvideo qlImageSize
+
+##  ## better than man pages...
+brew install tldr
+
+##  ## not sure we need this....
+# brew install midnight-commander
 
 ## install other stuff 
 
 # z beats cd most of the time.
 brew install z
-brew install awscli
 brew install mackup
 
 npm install -g npm-check
 
+# AWS
+brew install awscli
+gem install s3_website  #needs java, so....
+brew tap caskroom/versions
+brew cask install java8
+
+##  ## Mac App Store CLI
+brew install mas
+mas lucky MindNode
+mas lucky Monosnap
