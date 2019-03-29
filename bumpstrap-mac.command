@@ -107,11 +107,12 @@ brew cask install nvalt
 brew cask install quicksilver
 brew cask install numi
 brew cask install sourcetree
-brew cask install box-sync
+# brew cask install box-sync
 brew cask install atext
 brew cask install imageoptim
 brew cask install karabiner-elements
-brew cask install signal
+# brew cask install balsamiq-mockups
+# brew cask install signal
 brew cask install goodsync
 
 ##  ## Quick Look Extensions  → https://github.com/sindresorhus/quick-look-plugins
@@ -140,5 +141,7 @@ brew cask install java8
 
 ##  ## Mac App Store CLI
 brew install mas
-mas lucky MindNode
+mas install MindNode 5
 mas lucky Monosnap
+mas install Keynote
+# mas lucky OmniGraffle
