@@ -143,5 +143,6 @@ brew cask install java8
 brew install mas
 mas install MindNode 5
 mas lucky Monosnap
-mas install Keynote
+mas lucky Keynote
+mas lucky OneNote
 # mas lucky OmniGraffle
