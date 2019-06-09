@@ -115,6 +115,7 @@ brew cask install karabiner-elements
 # brew cask install balsamiq-mockups
 # brew cask install signal
 brew cask install goodsync
+brew cask install musescore
 
 ##  ## Quick Look Extensions  → https://github.com/sindresorhus/quick-look-plugins
 ##	## maybe add: webpquicklook 
