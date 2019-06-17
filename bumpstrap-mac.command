@@ -141,6 +141,9 @@ gem install s3_website  #needs java, so....
 brew tap caskroom/versions
 brew cask install java8
 
+# LastPass CLI
+brew install lastpass-cli
+
 ##  ## Mac App Store CLI
 brew install mas
 mas install MindNode 5
