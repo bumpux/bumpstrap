@@ -94,7 +94,8 @@ echo 'export NVM_DIR="$HOME/.nvm"
 nvm current
 
 # (for Afred + LastPass workflow; see https://github.com/stuartcryan/lastpass-alfred-workflow 
-sudo cpan install Capture::Tiny
+# may need to pprepend sudo 
+cpan install Capture::Tiny
 
 ## (4)
 ## install casks!
@@ -113,14 +114,14 @@ brew cask install quicksilver
 brew cask install numi
 brew cask install sourcetree
 brew cask install visual-studio-code
-# brew cask install box-sync
+brew cask install box-sync
 brew cask install atext
 brew cask install imageoptim
-brew cask install karabiner-elements
+brew cask install musescore
+# brew cask install karabiner-elements
 # brew cask install balsamiq-mockups
 # brew cask install signal
 # brew cask install goodsync
-brew cask install musescore
 
 ##  ## Quick Look Extensions  → https://github.com/sindresorhus/quick-look-plugins
 ##	## maybe add: webpquicklook 
@@ -155,4 +156,6 @@ mas install MindNode 5
 mas lucky Monosnap
 mas lucky Keynote
 mas lucky OneNote
+mas lucky Logic Pro X
+mas lucky MainStage 3
 # mas lucky OmniGraffle
