@@ -93,8 +93,12 @@ echo 'export NVM_DIR="$HOME/.nvm"
 # what are we using?
 nvm current
 
+# (for Afred + LastPass workflow; see https://github.com/stuartcryan/lastpass-alfred-workflow 
+sudo cpan install Capture::Tiny
+
 ## (4)
 ## install casks!
+brew cask install alfred
 brew cask install google-backup-and-sync
 brew cask install google-chrome
 brew cask install dropbox
@@ -108,13 +112,14 @@ brew cask install nvalt
 brew cask install quicksilver
 brew cask install numi
 brew cask install sourcetree
+brew cask install visual-studio-code
 # brew cask install box-sync
 brew cask install atext
 brew cask install imageoptim
 brew cask install karabiner-elements
 # brew cask install balsamiq-mockups
 # brew cask install signal
-brew cask install goodsync
+# brew cask install goodsync
 brew cask install musescore
 
 ##  ## Quick Look Extensions  → https://github.com/sindresorhus/quick-look-plugins

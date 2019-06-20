@@ -34,7 +34,6 @@ defaults write com.apple.Safari HomePage -string "about:blank"
 # Save screenshots to preferred location (e.g. desktop)
 defaults write com.apple.screencapture location -string "${HOME}/Desktop"
 
-
 ###############################################################################
 # Finder                                                                      #
 ###############################################################################
@@ -115,3 +114,12 @@ defaults write com.irradiatedsoftware.SizeUp StartAtLogin -bool true
 
 # Don’t show the preferences window on next start
 defaults write com.irradiatedsoftware.SizeUp ShowPrefsOnNextStart -bool false
+
+
+# to get Dock the way you like it run ScriptsEtc/Applescripts/Dock • As You Like It.scpt
+
+# Dark main menu without the rest of dark mode
+# 	Set Light mode
+# 	defaults write -g NSRequiresAquaSystemAppearance -bool Yes
+# 	Log out and log back in
+# 	Set Dark mode
