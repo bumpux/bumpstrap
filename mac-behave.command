@@ -5,10 +5,6 @@
 # expand this into a fuller first-run mac script.
 # in ScriptsEtc, there is a setup ruby-node script; once this is done, run-up-all to get up to date
 
-# have a section for cask installs:
-# brew cask install karabiner-elements 
-# ....  ( searc for casks here: https://caskroom.github.io/search)
-
 ### baised on matthias and paulirish .dotfiles.
 
 # started from copying stuff from https://github.com/mathiasbynens/dotfiles/blob/master/.macos 
@@ -26,10 +22,10 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 # defaults write com.apple.universalaccess reduceTransparency -bool true
 
 # Enable subpixel font rendering on non-Apple LCDs
-defaults write NSGlobalDomain AppleFontSmoothing -int 2
+# defaults write NSGlobalDomain AppleFontSmoothing -int 2
 
 # Set Safari’s home page to `about:blank` for faster loading
-defaults write com.apple.Safari HomePage -string "about:blank"
+# defaults write com.apple.Safari HomePage -string "about:blank"
 
 # Save screenshots to preferred location (e.g. desktop)
 defaults write com.apple.screencapture location -string "${HOME}/Desktop"
