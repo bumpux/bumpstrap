@@ -156,6 +156,7 @@ mas install MindNode 5
 mas lucky Monosnap
 mas lucky Keynote
 mas lucky OneNote
-mas lucky Logic Pro X
+# mas lucky Logic Pro X
+mas lucky GarageBand
 mas lucky MainStage 3
 # mas lucky OmniGraffle
