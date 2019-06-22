@@ -152,11 +152,11 @@ brew install lastpass-cli
 
 ##  ## Mac App Store CLI
 brew install mas
-mas install MindNode 5
+mas lucky MindNode
 mas lucky Monosnap
 mas lucky Keynote
 mas lucky OneNote
 # mas lucky Logic Pro X
 mas lucky GarageBand
-mas lucky MainStage 3
+mas lucky MainStage
 # mas lucky OmniGraffle
