@@ -143,9 +143,10 @@ npm install -g npm-check
 
 # AWS
 brew install awscli
-gem install s3_website  #needs java, so....
-brew tap caskroom/versions
-brew cask install java8
+gem install s3_website  #used to need java 8, so....
+# brew tap caskroom/versions
+# brew cask install java8
+# ... but apparently no longer required... we'll see
 
 # LastPass CLI
 brew install lastpass-cli
