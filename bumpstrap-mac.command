@@ -146,7 +146,9 @@ brew install awscli
 gem install s3_website  #used to need java 8, so....
 # brew tap caskroom/versions
 # brew cask install java8
-# ... but apparently no longer required... we'll see
+# ... update: no longer available as a cask
+#     but is avail as a download .dmg from oracle
+#     install this (from local share _New Mac Xtras)
 
 # LastPass CLI
 brew install lastpass-cli
