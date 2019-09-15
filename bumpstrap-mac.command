@@ -163,6 +163,7 @@ mas lucky OneNote
 mas lucky GarageBand
 mas lucky MainStage
 # mas lucky OmniGraffle
+mas lucky Evernote
 
 ####  FONTS  ####
 brew cask install font-open-sans
