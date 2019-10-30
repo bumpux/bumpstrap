@@ -93,6 +93,11 @@ echo 'export NVM_DIR="$HOME/.nvm"
 # what are we using?
 nvm current
 
+# create a simlink to NVM current node from default location 
+##  https://github.com/moranje/alfred-workflow-todoist/blob/master/README.md#configuration
+
+cd /usr/local/bin; ln -s $(which node) node
+
 # (for Afred + LastPass workflow; see https://github.com/stuartcryan/lastpass-alfred-workflow 
 # may need to pprepend sudo 
 cpan install Capture::Tiny
@@ -170,3 +175,8 @@ brew cask install font-open-sans
 brew cask install font-roboto
 brew cask install font-inconsolata
 brew cask install font-material-icons
+
+#### loose change ####
+# need these for the /rezume project #
+brew install pandoc
+gem install mustache
