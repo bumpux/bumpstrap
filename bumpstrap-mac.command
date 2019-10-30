@@ -180,3 +180,4 @@ brew cask install font-material-icons
 # need these for the /rezume project #
 brew install pandoc
 gem install mustache
+npm install -g less
