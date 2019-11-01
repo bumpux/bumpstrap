@@ -170,6 +170,9 @@ mas lucky MainStage
 # mas lucky OmniGraffle
 mas lucky Evernote
 
+# todoist:
+mas install 585829637
+
 ####  FONTS  ####
 brew cask install font-open-sans
 brew cask install font-roboto
