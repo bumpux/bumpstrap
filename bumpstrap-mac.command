@@ -143,6 +143,7 @@ brew install tldr
 # z beats cd most of the time.
 brew install z
 brew install mackup
+brew install ffmpeg
 
 npm install -g npm-check
 
@@ -172,6 +173,9 @@ mas lucky Evernote
 
 # todoist:
 mas install 585829637
+
+# the unarchiver
+mas install 425424353
 
 ####  FONTS  ####
 brew cask install font-open-sans
