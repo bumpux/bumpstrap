@@ -123,6 +123,7 @@ brew cask install box-sync
 brew cask install atext
 brew cask install imageoptim
 brew cask install musescore
+brew cask install tunnelbear
 # brew cask install karabiner-elements
 # brew cask install balsamiq-mockups
 # brew cask install signal
