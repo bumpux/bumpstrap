@@ -178,6 +178,9 @@ mas install 585829637
 # the unarchiver
 mas install 425424353
 
+# Slack
+mas install 803453959
+
 ####  FONTS  ####
 brew cask install font-open-sans
 brew cask install font-roboto
