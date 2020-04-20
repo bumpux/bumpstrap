@@ -92,9 +92,10 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
 # defaults write com.google.Chrome AppleEnableMouseSwipeNavigateWithScrolls -bool false
 # defaults write com.google.Chrome.canary AppleEnableMouseSwipeNavigateWithScrolls -bool false
 
-# Use the system-native print preview dialog
-defaults write com.google.Chrome DisablePrintPreview -bool true 
-defaults write com.google.Chrome.canary DisablePrintPreview -bool true
+# Use the system-native print preview dialog  # no longer recommended 
+#   instead add system keyboard shortcuts to over-ride chrome default: ⌘ + P = "Print Using Syuastem Dialog..." 
+# defaults write com.google.Chrome DisablePrintPreview -bool true 
+# defaults write com.google.Chrome.canary DisablePrintPreview -bool true
 
 # Expand the print dialog by default
 defaults write com.google.Chrome PMPrintingExpandedStateForPrint2 -bool true
