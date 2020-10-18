@@ -117,7 +117,8 @@ brew cask install typora
 brew cask install nvalt
 brew cask install quicksilver
 brew cask install numi
-brew cask install sourcetree
+# brew cask install sourcetree
+brew cask install github
 brew cask install visual-studio-code
 brew cask install box-sync
 brew cask install atext
