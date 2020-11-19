@@ -111,6 +111,7 @@ brew cask install dropbox
 brew cask install sizeup
 brew cask install cyberduck
 brew cask install sketch
+brew cask install figma
 brew cask install sublime-text
 brew cask install visual-studio-code
 brew cask install typora
