@@ -9,7 +9,7 @@
 # 1. install homebrew
 # 2. setup Ruby + RVM
 # 3. and Node + NVM
-# 4. brew cask install lots of apps you need
+# 4. brew install --cask lots of apps you need
 # 5. pull down dotfiles and mackup configs
 # 6. run scripts to sync all the things
 
@@ -104,38 +104,38 @@ cpan install Capture::Tiny
 
 ## (4)
 ## install casks!
-brew cask install alfred
-brew cask install google-backup-and-sync
-brew cask install google-chrome
-brew cask install dropbox
-brew cask install sizeup
-brew cask install cyberduck
-brew cask install sketch
-brew cask install figma
-brew cask install sublime-text
-brew cask install visual-studio-code
-brew cask install typora
-brew cask install nvalt
-brew cask install quicksilver
-brew cask install numi
-# brew cask install sourcetree
-brew cask install github
-brew cask install visual-studio-code
-brew cask install box-sync
-brew cask install atext
-brew cask install imageoptim
-brew cask install musescore
-brew cask install tunnelbear
-brew cask install soundflower
-brew cask install obs
-# brew cask install karabiner-elements
-# brew cask install balsamiq-mockups
-# brew cask install signal
-# brew cask install goodsync
+brew install --cask alfred
+brew install --cask google-backup-and-sync
+brew install --cask google-chrome
+brew install --cask dropbox
+brew install --cask sizeup
+brew install --cask cyberduck
+brew install --cask sketch
+brew install --cask figma
+brew install --cask sublime-text
+brew install --cask visual-studio-code
+brew install --cask typora
+brew install --cask nvalt
+brew install --cask quicksilver
+brew install --cask numi
+# brew install --cask sourcetree
+brew install --cask github
+brew install --cask visual-studio-code
+brew install --cask box-sync
+brew install --cask atext
+brew install --cask imageoptim
+brew install --cask musescore
+brew install --cask tunnelbear
+brew install --cask soundflower
+brew install --cask obs
+# brew install --cask karabiner-elements
+# brew install --cask balsamiq-mockups
+# brew install --cask signal
+# brew install --cask goodsync
 
 ##  ## Quick Look Extensions  → https://github.com/sindresorhus/quick-look-plugins
 ##	## maybe add: webpquicklook 
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json suspicious-package qlvideo qlImageSize
+brew install --cask qlcolorcode qlstephen qlmarkdown quicklook-json suspicious-package qlvideo qlImageSize
 
 ##  ## better than man pages...
 brew install tldr
@@ -156,7 +156,7 @@ npm install -g npm-check
 brew install awscli
 gem install s3_website  #used to need java 8, so....
 # brew tap caskroom/versions
-# brew cask install java8
+# brew install --cask java8
 # ... update: no longer available as a cask
 #     but is avail as a download .dmg from oracle
 #     install this (from local share _New Mac Xtras)
@@ -186,10 +186,10 @@ mas install 425424353
 mas install 803453959
 
 ####  FONTS  ####
-brew cask install font-open-sans
-brew cask install font-roboto
-brew cask install font-inconsolata
-brew cask install font-material-icons
+brew install --cask font-open-sans
+brew install --cask font-roboto
+brew install --cask font-inconsolata
+brew install --cask font-material-icons
 
 #### loose change ####
 # need these for the /rezume project #
