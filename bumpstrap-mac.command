@@ -105,7 +105,9 @@ cpan install Capture::Tiny
 ## (4)
 ## install casks!
 brew install --cask alfred
+brew install --cask google-drive
 brew install --cask google-backup-and-sync
+brew install --cask brave-browser
 brew install --cask google-chrome
 brew install --cask dropbox
 brew install --cask sizeup
@@ -128,6 +130,7 @@ brew install --cask musescore
 brew install --cask tunnelbear
 brew install --cask soundflower
 brew install --cask obs
+brew install --cask soulver
 # brew install --cask karabiner-elements
 # brew install --cask balsamiq-mockups
 # brew install --cask signal
@@ -184,6 +187,9 @@ mas install 425424353
 
 # Slack
 mas install 803453959
+
+# WhatsApp
+mas install 1147396723
 
 ####  FONTS  ####
 brew install --cask font-open-sans
