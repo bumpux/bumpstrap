@@ -131,6 +131,7 @@ brew install --cask tunnelbear
 brew install --cask soundflower
 brew install --cask obs
 brew install --cask soulver
+brew install --cask acorn
 # brew install --cask karabiner-elements
 # brew install --cask balsamiq-mockups
 # brew install --cask signal
