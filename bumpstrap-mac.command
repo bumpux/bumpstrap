@@ -105,36 +105,35 @@ cpan install Capture::Tiny
 ## (4)
 ## install casks!
 brew install --cask alfred
-brew install --cask google-drive
-brew install --cask google-backup-and-sync
-brew install --cask brave-browser
+# brew install --cask google-drive
+# brew install --cask google-backup-and-sync
+# brew install --cask brave-browser
 brew install --cask google-chrome
-brew install --cask dropbox
+# brew install --cask dropbox
 brew install --cask sizeup
 brew install --cask cyberduck
 brew install --cask sketch
 brew install --cask figma
-brew install --cask sublime-text
+# brew install --cask sublime-text
 brew install --cask visual-studio-code
 brew install --cask typora
 brew install --cask nvalt
-brew install --cask quicksilver
-brew install --cask numi
+# brew install --cask quicksilver
+# brew install --cask numi
 # brew install --cask sourcetree
 brew install --cask github
-brew install --cask visual-studio-code
-brew install --cask box-sync
+# brew install --cask box-sync
 brew install --cask atext
 brew install --cask imageoptim
-brew install --cask musescore
-brew install --cask tunnelbear
-brew install --cask soundflower
-brew install --cask obs
+# brew install --cask musescore
+# brew install --cask tunnelbear
+# brew install --cask soundflower
+# brew install --cask obs
 brew install --cask soulver
 brew install --cask acorn
-brew install --cask karabiner-elements
-brew install --cask plex
-brew install --cask plex-media-server
+# brew install --cask karabiner-elements
+# brew install --cask plex
+# brew install --cask plex-media-server
 # brew install --cask balsamiq-mockups
 # brew install --cask signal
 # brew install --cask goodsync
@@ -168,40 +167,40 @@ gem install s3_website  #used to need java 8, so....
 #     install this (from local share _New Mac Xtras)
 
 # LastPass CLI
-brew install lastpass-cli
+# brew install lastpass-cli
 
 ##  ## Mac App Store CLI
 brew install mas
 mas lucky MindNode
 mas lucky Monosnap
-mas lucky Keynote
-mas lucky OneNote
+# mas lucky Keynote
+# mas lucky OneNote
 # mas lucky Logic Pro X
-mas lucky GarageBand
-mas lucky MainStage
+# mas lucky GarageBand
+# mas lucky MainStage
 # mas lucky OmniGraffle
-mas lucky Evernote
+# mas lucky Evernote
 
 # todoist:
-mas install 585829637
+# mas install 585829637
 
 # the unarchiver
-mas install 425424353
+# mas install 425424353
 
 # Slack
 mas install 803453959
 
 # WhatsApp
-mas install 1147396723
+# mas install 1147396723
 
 ####  FONTS  ####
 brew install --cask font-open-sans
-brew install --cask font-roboto
+# brew install --cask font-roboto
 brew install --cask font-inconsolata
 brew install --cask font-material-icons
 
 #### loose change ####
 # need these for the /rezume project #
-brew install pandoc
-gem install mustache
-npm install -g less
+# brew install pandoc
+# gem install mustache
+# npm install -g less
