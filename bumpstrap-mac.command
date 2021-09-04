@@ -193,11 +193,14 @@ mas install 803453959
 # WhatsApp
 # mas install 1147396723
 
+# Subversion (some fonts need this)
+brew install svn
+
 ####  FONTS  ####
-brew install --cask font-open-sans
-# brew install --cask font-roboto
-brew install --cask font-inconsolata
-brew install --cask font-material-icons
+brew tap homebrew/cask-fonts
+brew install font-inconsolata
+brew install font-open-sans
+brew install font-material-icons
 
 #### loose change ####
 # need these for the /rezume project #
