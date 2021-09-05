@@ -137,6 +137,7 @@ brew install --cask acorn
 # brew install --cask balsamiq-mockups
 # brew install --cask signal
 # brew install --cask goodsync
+brew install --cask amazon-workdocs-drive
 
 ##  ## Quick Look Extensions  → https://github.com/sindresorhus/quick-look-plugins
 ##	## maybe add: webpquicklook 
