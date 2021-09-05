@@ -2,19 +2,11 @@
 
 # bumpstrap a new mac!
 
-# first brush up on this doc:
-# https://docs.google.com/document/d/1WtHgFCoUmosud967ybRi483z2fgHdRUTdl9NwYLVyKk/edit#heading=h.yh7nthgzg9xn 
+# START HERE:
+# https://docs.google.com/document/d/1WtHgFCoUmosud967ybRi483z2fgHdRUTdl9NwYLVyKk
 
-# 0. preamble 
-# 1. install homebrew
-# 2. setup Ruby + RVM
-# 3. and Node + NVM
-# 4. brew install --cask lots of apps you need
-# 5. pull down dotfiles and mackup configs
-# 6. run scripts to sync all the things
 
-## (0) 
-## get ready
+##### (0) Ready? Preamble:
 
 # assumes up to date Xcode and Git, and permission to run as sudo
 # deeper: http://railsapps.github.io/installrubyonrails-mac.html 
@@ -37,8 +29,9 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ## lay some groundwork
 mkdir ~/Projects
 mkdir ~/Clouds
+mkdir ~/Configs
 
-## (1) 
+##### (1) 
 ## install Homebrew using the system Ruby in order to install the new Ruby :-/
 
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -50,7 +43,7 @@ brew cleanup
 brew install gpg
 command curl -sSL https://rvm.io/mpapis.asc | gpg --import -
 
-## (2)
+##### (2)
 ## install RVM and Ruby
 
 curl -sSL https://rvm.io/mpapis.asc | gpg --import -
