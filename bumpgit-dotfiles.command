@@ -13,7 +13,7 @@ git clone https://idahog@bitbucket.org/bumpux/dotfiles_local.git -b work-A --sin
 # IMPORTANT: verify the mackup config is what you want inside dotfiles_local (PER BRANCH) to avoid ... huh???!?
 
 cd ~/Projects/dotfiles
-git submodule update --remote --merge # hopefully avoid confusing/scary clone behaviors...
+# git submodule update --remote --merge # hopefully avoid confusing/scary clone behaviors...
 
 sh install
 
