@@ -4,6 +4,8 @@
 # for example:
     # git clone https://idahog@bitbucket.org/bumpux/dotfiles_local.git -b YOUR-BRANCH-NAME-HERE --single-branch ~/Projects/dotfiles_local/
 
+    # The BRANCH NAME in the local call is REALLY crucial to get it working the way you want
+
 git clone https://idahog@bitbucket.org/bumpux/dotfiles.git ~/Projects/dotfiles/
 git clone https://idahog@bitbucket.org/bumpux/dotfiles_local.git -b work-A --single-branch ~/Projects/dotfiles_local/
 
@@ -12,4 +14,3 @@ git clone https://idahog@bitbucket.org/bumpux/dotfiles_local.git -b work-A --sin
 
 cd ~/Projects/dotfiles
 sh install
-mackup restore  -- do this to get all the app configurations restore (via mackup)
