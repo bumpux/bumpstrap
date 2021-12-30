@@ -186,6 +186,7 @@ mas install 803453959
 
 # WhatsApp
 # mas install 1147396723
+mas lucky whatsapp 
 
 # Subversion (some fonts need this)
 brew install svn
