@@ -27,9 +27,9 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # sudo chown -R $(whoami) /usr/local
 
 ## lay some groundwork
-mkdir ~/Projects
-mkdir ~/Clouds
-mkdir ~/Configs
+# mkdir ~/Projects
+# mkdir ~/Clouds
+# mkdir ~/Configs
 
 ##### (1) 
 ## install Homebrew using the system Ruby in order to install the new Ruby :-/
@@ -98,19 +98,19 @@ cpan install Capture::Tiny
 ## (4)
 ## install casks!
 brew install --cask alfred
-# brew install --cask google-drive
+brew install --cask google-drive
 # brew install --cask google-backup-and-sync
 # brew install --cask brave-browser
 brew install --cask google-chrome
 # brew install --cask dropbox
 brew install --cask sizeup
-brew install --cask cyberduck
-brew install --cask sketch
+# brew install --cask cyberduck
+# brew install --cask sketch
 brew install --cask figma
 # brew install --cask sublime-text
 brew install --cask visual-studio-code
 brew install --cask typora
-brew install --cask nvalt
+# brew install --cask nvalt
 # brew install --cask quicksilver
 # brew install --cask numi
 # brew install --cask sourcetree
@@ -130,7 +130,7 @@ brew install --cask acorn
 # brew install --cask balsamiq-mockups
 # brew install --cask signal
 # brew install --cask goodsync
-brew install --cask amazon-workdocs-drive
+# brew install --cask amazon-workdocs-drive
 
 ##  ## Quick Look Extensions  → https://github.com/sindresorhus/quick-look-plugins
 ##	## maybe add: webpquicklook 
@@ -195,7 +195,7 @@ brew install svn
 brew tap homebrew/cask-fonts
 brew install font-inconsolata
 brew install font-open-sans
-brew install font-material-icons
+# brew install font-material-icons
 
 #### loose change ####
 # need these for the /rezume project #
