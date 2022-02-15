@@ -99,8 +99,6 @@ cpan install Capture::Tiny
 ## install casks!
 brew install --cask alfred
 brew install --cask google-drive
-# brew install --cask google-backup-and-sync
-# brew install --cask brave-browser
 brew install --cask google-chrome
 # brew install --cask dropbox
 brew install --cask sizeup
