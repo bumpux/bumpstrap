@@ -144,8 +144,9 @@ brew install tldr
 # brew install midnight-commander
 
 ## install other stuff 
-
-# z beats cd most of the time.
+# github CLI
+brew install gh
+# "z" beats "cd" most of the time.
 brew install z
 brew install mackup
 brew install ffmpeg
