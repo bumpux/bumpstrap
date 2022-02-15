@@ -27,8 +27,8 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # sudo chown -R $(whoami) /usr/local
 
 ## lay some groundwork
-# mkdir ~/Projects
-# mkdir ~/Clouds
+mkdir ~/Projects
+mkdir ~/Clouds
 # mkdir ~/Configs
 
 ##### (1) 
@@ -97,37 +97,40 @@ cpan install Capture::Tiny
 
 ## (4)
 ## install casks!
-brew install --cask alfred
-brew install --cask google-drive
-brew install --cask google-chrome
-# brew install --cask dropbox
-brew install --cask sizeup
-# brew install --cask cyberduck
-# brew install --cask sketch
-brew install --cask figma
-# brew install --cask sublime-text
 brew install --cask visual-studio-code
 brew install --cask typora
-# brew install --cask nvalt
-# brew install --cask quicksilver
-# brew install --cask numi
-# brew install --cask sourcetree
-brew install --cask github
-# brew install --cask box-sync
-brew install --cask atext
-brew install --cask imageoptim
-# brew install --cask musescore
-# brew install --cask tunnelbear
-# brew install --cask soundflower
-# brew install --cask obs
 brew install --cask soulver
+brew install --cask sizeup
+brew install --cask mimestream
+brew install --cask imageoptim
+brew install --cask google-drive
+brew install --cask google-chrome
+brew install --cask github
+brew install --cask figma
+brew install --cask atext
+brew install --cask alfred
 brew install --cask acorn
-# brew install --cask karabiner-elements
-# brew install --cask plex
-# brew install --cask plex-media-server
-# brew install --cask balsamiq-mockups
+# brew install --cask tunnelbear
+# brew install --cask sublime-text
+# brew install --cask sourcetree
+# brew install --cask soundflower
+# brew install --cask sketch
 # brew install --cask signal
+# brew install --cask quicksilver
+# brew install --cask plex-media-server
+# brew install --cask plex
+# brew install --cask obs
+# brew install --cask nvalt
+# brew install --cask numi
+# brew install --cask musescore
+# brew install --cask karabiner-elements
+# brew install --cask google-backup-and-sync
 # brew install --cask goodsync
+# brew install --cask dropbox
+# brew install --cask cyberduck
+# brew install --cask brave-browser
+# brew install --cask box-sync
+# brew install --cask balsamiq-mockups
 # brew install --cask amazon-workdocs-drive
 
 ##  ## Quick Look Extensions  → https://github.com/sindresorhus/quick-look-plugins
