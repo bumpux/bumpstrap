@@ -110,6 +110,8 @@ brew install --cask figma
 brew install --cask atext
 brew install --cask alfred
 brew install --cask acorn
+brew install --cask makemkv
+brew install --cask handbrake
 # brew install --cask tunnelbear
 # brew install --cask sublime-text
 # brew install --cask sourcetree
@@ -118,7 +120,7 @@ brew install --cask acorn
 # brew install --cask signal
 # brew install --cask quicksilver
 # brew install --cask plex-media-server
-# brew install --cask plex
+brew install --cask plex
 # brew install --cask obs
 # brew install --cask nvalt
 # brew install --cask numi
