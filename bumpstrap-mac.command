@@ -121,6 +121,7 @@ brew install --cask handbrake
 # brew install --cask quicksilver
 # brew install --cask plex-media-server
 brew install --cask plex
+brew install --cask workflowy
 # brew install --cask obs
 # brew install --cask nvalt
 # brew install --cask numi
