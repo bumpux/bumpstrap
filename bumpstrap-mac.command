@@ -6,6 +6,32 @@
 # https://docs.google.com/document/d/1WtHgFCoUmosud967ybRi483z2fgHdRUTdl9NwYLVyKk
 
 
+
+# may need to make adjustments for M1 Apple ARM silicon (based on running old version on Chautauqua)
+
+# Brew may need Rosetta
+
+# This little snippet can overcome Brew error:
+
+
+# Older Alfred workflows may need Python 2: 
+# https://www.alfredapp.com/help/kb/python-2-monterey/ 
+# https://github.com/alfredapp/updated-third-party-python2-workflows
+
+# # # To reinstall Python 2:
+
+# export PATH="/opt/homebrew/bin:/usr/local/bin:${PATH}"
+# eval "$(brew shellenv)"
+# brew install pyenv
+# pyenv install 2.7.18
+# ln -s "${HOME}/.pyenv/versions/2.7.18/bin/python2.7" "${HOMEBREW_PREFIX}/bin/python"
+
+
+
+
+
+
+
 ##### (0) Ready? Preamble:
 
 # assumes up to date Xcode and Git, and permission to run as sudo
