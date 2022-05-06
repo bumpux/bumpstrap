@@ -138,6 +138,7 @@ brew install --cask alfred
 brew install --cask acorn
 brew install --cask makemkv
 brew install --cask handbrake
+brew install --cask joplin
 # brew install --cask tunnelbear
 # brew install --cask sublime-text
 # brew install --cask sourcetree
