@@ -149,18 +149,18 @@ brew install --cask yt-music
 # brew install --cask quicksilver
 # brew install --cask plex-media-server
 brew install --cask plex
-brew install --cask workflowy
+# brew install --cask workflowy
 # brew install --cask obs
 # brew install --cask nvalt
 # brew install --cask numi
-# brew install --cask musescore
+brew install --cask musescore
 # brew install --cask karabiner-elements
 # brew install --cask google-backup-and-sync
 # brew install --cask goodsync
-# brew install --cask dropbox
+brew install --cask dropbox
 # brew install --cask cyberduck
 # brew install --cask brave-browser
-# brew install --cask box-sync
+brew install --cask box-sync
 # brew install --cask balsamiq-mockups
 # brew install --cask amazon-workdocs-drive
 
