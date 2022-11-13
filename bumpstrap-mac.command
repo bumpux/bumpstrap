@@ -140,6 +140,7 @@ brew install --cask makemkv
 brew install --cask handbrake
 brew install --cask joplin
 brew install --cask yt-music
+brew install --cask lastpass
 # brew install --cask tunnelbear
 # brew install --cask sublime-text
 # brew install --cask sourcetree
