@@ -187,6 +187,7 @@ npm install -g npm-check
 
 # AWS
 brew install awscli
+brew install git-secrets
 gem install s3_website  #used to need java 8, so....
 # brew tap caskroom/versions
 # brew install --cask java8
