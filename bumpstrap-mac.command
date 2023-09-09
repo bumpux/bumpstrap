@@ -167,7 +167,7 @@ brew install --cask dropbox
 
 ##  ## Quick Look Extensions  → https://github.com/sindresorhus/quick-look-plugins
 ##	## maybe add: webpquicklook 
-brew install --cask qlcolorcode qlstephen qlmarkdown quicklook-json suspicious-package qlvideo qlImageSize
+brew install --cask qlstephen qlmarkdown quicklook-json suspicious-package qlvideo qlImageSize
 
 ##  ## better than man pages...
 brew install tldr
